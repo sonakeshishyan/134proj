@@ -16,10 +16,65 @@ header {
    font-family: "Kameron", serif;
  }
 
+
  h1 {
    color: #FFA7EC;
    justify-content: space-between;
    font-family: "Kameron", serif;
+ }
+
+#container {
+    background-color: #FFA7EC;
+    display: flex;
+    margin: auto;
+    padding: .5%;
+ }
+
+#first {
+  width: 300 px;
+  float: flex;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 25px;
+
+ }
+
+#portfolio {
+  width: 500px;
+  float: flex;
+  height: 400px;
+  background-color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 25px;
+}
+
+#second {
+  width: 200 px;
+  float: flex;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 25px;
+
+ }
+
+ #third {
+  width: 400 px;
+  float: flex;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 25px;
+
  }
 
  h2 {
@@ -84,4 +139,13 @@ header {
 
 .button:active {
   background-color: purple;
+}
+
+.contain {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: left;
+
 }

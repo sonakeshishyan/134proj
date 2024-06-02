@@ -1,0 +1,15 @@
+{
+  "name": "134proj",
+  "version": "1.0.0",
+  "description": "References: https://www.w3schools.com/css/css3_buttons.asp https://www.w3schools.com/css/css_link.asp https://www.w3schools.com/css/css3_buttons.asp",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:tailwind": "tailwindcss -i ./src/input.css -o public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
