@@ -32,7 +32,6 @@ header {
 
 #first {
   width: 300 px;
-  float: flex;
   height: 200px;
   background-color: white;
   text-align: center;
@@ -46,6 +45,36 @@ header {
   width: 500px;
   float: flex;
   height: 400px;
+  background-color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 25px;
+}
+
+#fourth {
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 25px;
+}
+
+#fifth {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 25px;
+}
+
+#sixth {
+  width: 800px;
+  height: 200px;
   background-color: white;
   text-align: center;
   padding-left: 5%;
@@ -148,4 +177,33 @@ header {
   font-size: 16px;
   text-align: left;
 
+}
+
+.search {
+  display: flex;
+  overflow: hidden;
+  background-color: #FFA7EC;
+  border-radius: 25px;
+
+}
+
+/* Style the search box inside the navigation bar */
+.search input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
 }

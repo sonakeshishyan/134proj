@@ -11,12 +11,17 @@
   </head>
   <body>
     <header>   
+      <a href="/pages/index1.html">
         <h1>Girls Who Trade</h1>
-        <p> search bar</p>
+    </a>
+        <div class="search">
+          <input type="text" placeholder="Search..">
+         </div>
         <nav>
-           <a href=”#” style="cursor:pointer">Investing</a>
-           <a href=”# style="cursor:pointer">Notification</a>
-           <a href=”# style="cursor:pointer">Account</a>
+          <a href="/pages/lessons.html" style="cursor:pointer">Lessons</a>
+           <a href="/pages/investing.html" style="cursor:pointer">Investing</a>
+           <a href="#" style="cursor:pointer">Notification</a>
+           <a href="/pages/account.html" style="cursor:pointer">Account</a>
         </nav>
       </header>
     
@@ -24,7 +29,7 @@
         <div id="first">
             <h2>Next Lesson</h2>
               <p>What is a call option? And how to do it.</p>
-              <button class="button">Start</button>
+              <button class="button" onclick="window.location.href='/pages/lessons.html'">Start</button>
           </div>
           <div id="second">
                 <h2>Current Time</h2>
@@ -44,7 +49,7 @@
     <div id="container">
         <div id="portfolio">
             <h2>Your Portfolio</h2>
-            <img src="./assets/1day.png" alt="graph" width="400" height="300">
+            <img src="/assets/1day.png" alt="graph" width="400" height="300">
             <!-- TODO: draw graph and show image -->
             <div>
                 <label>
