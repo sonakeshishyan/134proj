@@ -42,9 +42,9 @@ header {
  }
 
 #portfolio {
-  width: 500px;
+  width: 450px;
   float: flex;
-  height: 400px;
+  height: 450px;
   background-color: white;
   text-align: center;
   padding-left: 5%;
