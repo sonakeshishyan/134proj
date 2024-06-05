@@ -4,6 +4,7 @@
     <meta charset="utf-8" content="text/html" />
     <title>Girls Who Trade</title>
     <link rel="stylesheet" href="styling.css">
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,8 +50,38 @@
     <div id="container">
         <div id="portfolio">
             <h2>Your Portfolio</h2>
-            <img src="/assets/1day.png" alt="graph" width="400" height="300">
             <!-- TODO: draw graph and show image -->
+            <div id="myChart" style="width:100%; max-width:600px; height:300px;"></div>
+            <script>
+              google.charts.load('current',{packages:['corechart']});
+              google.charts.setOnLoadCallback(drawChart);
+              
+              function drawChart() {
+              
+              // Set Data
+              const data = google.visualization.arrayToDataTable([
+                ['Day', 'Value'],
+                ['1', 1020],
+                ['2', 2000],
+                ['3', 3000],
+                ['4', 2600],
+                ['5', 3000],
+                ['6', 2600],
+                ['7', 3200],
+              ]);
+              
+              // Set Options
+              const options = {
+                legend: 'none',
+                curveType: 'function',
+              };
+              
+              // Draw
+              const chart = new google.visualization.LineChart(document.getElementById('myChart'));
+              chart.draw(data, options);
+              
+              }
+              </script>
             <div>
                 <label>
                     <input type="radio" name="option" 

@@ -11,3 +11,6 @@ https://fonts.google.com/icons?selected=Material+Symbols+Outlined:add_circle:FIL
 https://stackoverflow.com/questions/572768/styling-an-input-type-file-button
 https://www.w3schools.com/tags/tag_progress.asp
 https://forum.freecodecamp.org/t/how-do-i-display-elements-in-rows/320909/2
+https://sitebulb.com/hints/links/has-link-with-a-url-in-onclick-attribute/
+https://www.w3schools.com/js/tryit.asp?filename=trygoogle_chart_line
+https://developers.google.com/chart/interactive/docs/gallery/linechart
