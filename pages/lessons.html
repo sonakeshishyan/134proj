@@ -10,6 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet">
     <title>Lessons</title>
+
+    <script>
+    document.addEventListener("mouseup", function() {
+      var selectedText = getSelectedText();
+      if (selectedText.length > 0) {
+        div = document.createElement("div");
+        div.innerHTML = selectedText.trim();
+        div.classList.add("highlight");
+        replaceSelection(div);
+      }
+    });
+    </script>
+
 </head>
 <body>
     <header>   
@@ -42,11 +55,17 @@
          </div>
 
         <div id="container">
+          <div id="toolbox">
+            <img id="highlight" src="/assets/highlighter.png" alt="highlighter button" width="50" height="50">
+            <img src="/assets/notes.png" alt="notes button" width="50" height="50">
+            <img src="/assets/chatbot.png" alt="chatbot button" width="50" height="50">
+          </div>
             <div id="fifth">
                 <h2>Example:</h2>
                   <p>You believe Disney stock will rise in the next month. Right now the stock is at $90. So you place a $25 bet that by June 15th Disney stock will pass $95.  </p>
 
-           </div>
+            </div>
+
 
         </div>
         <div id="container">

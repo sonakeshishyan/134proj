@@ -207,3 +207,14 @@ input[type="file"] {
   padding: 6px 12px;
   cursor: pointer;
 }
+
+#toolbox {
+  width: 60px;
+  float: flex;
+  height: 160px;
+  background-color: white;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 25px;
+}
