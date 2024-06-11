@@ -1,5 +1,12 @@
 # 134proj
 
+Steps:
+1. Install Live Server extension 
+2. Right click index1.html file and open with live server to start 
+
+Demo Video:
+
+
 References:
 https://www.w3schools.com/css/css3_buttons.asp
 https://www.w3schools.com/css/css_link.asp

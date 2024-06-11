@@ -32,9 +32,20 @@
 
       <div id="container">
         <div id="first1">
-            <h2>You are Paper Trading</h2>
-            <button class="button2">switch</button>
-          </div>
+            <h2 id="toggle">You are PAPER Trading</h2>
+            <button class="button2" onclick="myFunction()">Switch</button>
+          </div>  
+      <script>
+       function myFunction() {
+            var x = document.getElementById("toggle");
+            if (x.innerHTML === "You are PAPER Trading") {
+              x.innerHTML = "You are REAL Trading";
+            } else {
+              x.innerHTML = "You are PAPER Trading";
+            }
+          }
+      </script>
+   
 
           <div id="second1">
             <h2>Your Stocks</h2>
